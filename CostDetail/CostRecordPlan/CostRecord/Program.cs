@@ -8,15 +8,19 @@ namespace CostRecord
 {
     class Program
     {
+        /// <summary>
+        /// 公共基金
+        /// </summary>
         static int publicFunds = 0;
+
         static void Main(string[] args)
         {
-            //zxq
+         
             publicFunds += 0;
 
 
 
-            System.Console.WriteLine("11");
+            System.Console.WriteLine($"当前余额： {publicFunds}");
             Console.ReadLine();
         }
     }
